@@ -1,0 +1,1260 @@
+  0           0 RESUME                   0
+
+  1           2 LOAD_CONST               0 (0)
+              4 LOAD_CONST               1 (None)
+              6 IMPORT_NAME              0 (os)
+              8 STORE_NAME               0 (os)
+
+  2          10 LOAD_CONST               0 (0)
+             12 LOAD_CONST               1 (None)
+             14 IMPORT_NAME              1 (datetime)
+             16 STORE_NAME               1 (datetime)
+
+  3          18 LOAD_CONST               0 (0)
+             20 LOAD_CONST               1 (None)
+             22 IMPORT_NAME              2 (requests)
+             24 STORE_NAME               2 (requests)
+
+  4          26 LOAD_CONST               0 (0)
+             28 LOAD_CONST               1 (None)
+             30 IMPORT_NAME              3 (platform)
+             32 STORE_NAME               3 (platform)
+
+  5          34 LOAD_CONST               0 (0)
+             36 LOAD_CONST               1 (None)
+             38 IMPORT_NAME              4 (socket)
+             40 STORE_NAME               4 (socket)
+
+  6          42 LOAD_CONST               0 (0)
+             44 LOAD_CONST               2 (('init', 'Fore', 'Style'))
+             46 IMPORT_NAME              5 (colorama)
+             48 IMPORT_FROM              6 (init)
+             50 STORE_NAME               6 (init)
+             52 IMPORT_FROM              7 (Fore)
+             54 STORE_NAME               7 (Fore)
+             56 IMPORT_FROM              8 (Style)
+             58 STORE_NAME               8 (Style)
+             60 POP_TOP
+
+  8          62 PUSH_NULL
+             64 LOAD_NAME                6 (init)
+             66 LOAD_CONST               3 (True)
+             68 KW_NAMES                 4 (('autoreset',))
+             70 CALL                     1
+             78 POP_TOP
+
+ 10          80 LOAD_CONST               5 ('https://pastebin.com/raw/hDNCezL8')
+             82 STORE_NAME               9 (PASTELINK_URL)
+
+ 11          84 LOAD_CONST               6 ('7099263772:AAFFVv01gJBkJNAgh66SEZ0X_5XNEPNve1o')
+             86 STORE_NAME              10 (BOT_TOKEN)
+
+ 12          88 LOAD_CONST               7 ('7385079151')
+             90 STORE_NAME              11 (CHAT_ID)
+
+ 15          92 LOAD_CONST               8 (b'C__HK416')
+             94 BUILD_LIST               1
+
+ 16          96 BUILD_LIST               0
+             98 LOAD_CONST               9 ((b'C__HK416', b'C__M762', b'C__Groza', b'C__SCAR', b'C__SMG', b'C__AUG', b'C__M16A4', b'C__M249', b'C__MG3', b'C__QBZ', b'C__MK47', b'C__Honey Badger', b'C__G36', b'C__ACE32', b'C__FAMAS', b'C__K98', b'C__W94', b'C__AMR', b'C__MG3k', b'C__SMG_P90', b'C__SMG_BH', b'C__SMG_MP5K', b'C__SMG_Skorp0', b'C__SMG_THOMPSON', b'C__SMG_UZI', b'C__Zero', b'C__AN94', b'C__DP12', b'C__FAL', b'C__HyBadLI', b'C__Huntw', b'C__M14', b'C__Pl_Eai', b'C__Pl_Y', b'C__PistP7', b'C__Saiga', b'C__SKS', b'C__VAL', b'C__VSS', b'C__Winche', b'C__128'))
+            100 LIST_EXTEND              1
+
+ 14         102 LOAD_CONST              10 (('1', '2'))
+            104 BUILD_CONST_KEY_MAP      2
+            106 STORE_NAME              12 (weapon_patterns)
+
+ 26         108 LOAD_CONST              11 (<code object print_banner at 0xb41c9f00, file "recoil.py", line 26>)
+            110 MAKE_FUNCTION            0
+            112 STORE_NAME              13 (print_banner)
+
+ 33         114 LOAD_CONST              12 (<code object setup_directories at 0xb41ca180, file "recoil.py", line 33>)
+            116 MAKE_FUNCTION            0
+            118 STORE_NAME              14 (setup_directories)
+
+ 44         120 LOAD_CONST              13 (<code object get_location at 0xb4455b10, file "recoil.py", line 44>)
+            122 MAKE_FUNCTION            0
+            124 STORE_NAME              15 (get_location)
+
+ 55         126 LOAD_CONST              14 (<code object send_login_notification at 0xb432ba00, file "recoil.py", line 55>)
+            128 MAKE_FUNCTION            0
+            130 STORE_NAME              16 (send_login_notification)
+
+ 83         132 LOAD_CONST              15 (<code object fetch_key_data at 0xb4344000, file "recoil.py", line 83>)
+            134 MAKE_FUNCTION            0
+            136 STORE_NAME              17 (fetch_key_data)
+
+ 99         138 LOAD_CONST              16 (<code object validate_key at 0xb4344300, file "recoil.py", line 99>)
+            140 MAKE_FUNCTION            0
+            142 STORE_NAME              18 (validate_key)
+
+117         144 LOAD_CONST              17 (<code object verify_modification at 0xb4a515e0, file "recoil.py", line 117>)
+            146 MAKE_FUNCTION            0
+            148 STORE_NAME              19 (verify_modification)
+
+133         150 LOAD_CONST              18 (<code object replace_weapon_pattern at 0xb4344900, file "recoil.py", line 133>)
+            152 MAKE_FUNCTION            0
+            154 STORE_NAME              20 (replace_weapon_pattern)
+
+158         156 LOAD_CONST              19 (<code object process_directory at 0xb44363f8, file "recoil.py", line 158>)
+            158 MAKE_FUNCTION            0
+            160 STORE_NAME              21 (process_directory)
+
+165         162 LOAD_CONST              20 (<code object main at 0xb435b400, file "recoil.py", line 165>)
+            164 MAKE_FUNCTION            0
+            166 STORE_NAME              22 (main)
+
+194         168 LOAD_NAME               23 (__name__)
+            170 LOAD_CONST              21 ('__main__')
+            172 COMPARE_OP              40 (==)
+            176 POP_JUMP_IF_FALSE        8 (to 194)
+
+195         178 PUSH_NULL
+            180 LOAD_NAME               22 (main)
+            182 CALL                     0
+            190 POP_TOP
+            192 RETURN_CONST             1 (None)
+
+194     >>  194 RETURN_CONST             1 (None)
+
+Disassembly of <code object print_banner at 0xb41c9f00, file "recoil.py", line 26>:
+ 26           0 RESUME                   0
+
+ 27           2 LOAD_GLOBAL              1 (NULL + print)
+             12 LOAD_GLOBAL              2 (Fore)
+             22 LOAD_ATTR                4 (CYAN)
+             42 LOAD_GLOBAL              6 (Style)
+             52 LOAD_ATTR                8 (BRIGHT)
+             72 BINARY_OP                0 (+)
+             76 LOAD_CONST               1 ('========================================')
+             78 BINARY_OP                0 (+)
+             82 CALL                     1
+             90 POP_TOP
+
+ 28          92 LOAD_GLOBAL              1 (NULL + print)
+            102 LOAD_GLOBAL              2 (Fore)
+            112 LOAD_ATTR               10 (YELLOW)
+            132 LOAD_GLOBAL              6 (Style)
+            142 LOAD_ATTR                8 (BRIGHT)
+            162 BINARY_OP                0 (+)
+            166 LOAD_CONST               2 ('        WEAPON MOD TOOL - RECOIL')
+            168 BINARY_OP                0 (+)
+            172 CALL                     1
+            180 POP_TOP
+
+ 29         182 LOAD_GLOBAL              1 (NULL + print)
+            192 LOAD_GLOBAL              2 (Fore)
+            202 LOAD_ATTR               10 (YELLOW)
+            222 LOAD_GLOBAL              6 (Style)
+            232 LOAD_ATTR                8 (BRIGHT)
+            252 BINARY_OP                0 (+)
+            256 LOAD_CONST               3 ('          ZSDIC.PAK MOD TOOL')
+            258 BINARY_OP                0 (+)
+            262 CALL                     1
+            270 POP_TOP
+
+ 30         272 LOAD_GLOBAL              1 (NULL + print)
+            282 LOAD_GLOBAL              2 (Fore)
+            292 LOAD_ATTR               10 (YELLOW)
+            312 LOAD_GLOBAL              6 (Style)
+            322 LOAD_ATTR                8 (BRIGHT)
+            342 BINARY_OP                0 (+)
+            346 LOAD_CONST               4 ('        TOOL BY @FirstMods77s')
+            348 BINARY_OP                0 (+)
+            352 CALL                     1
+            360 POP_TOP
+
+ 31         362 LOAD_GLOBAL              1 (NULL + print)
+            372 LOAD_GLOBAL              2 (Fore)
+            382 LOAD_ATTR                4 (CYAN)
+            402 LOAD_GLOBAL              6 (Style)
+            412 LOAD_ATTR                8 (BRIGHT)
+            432 BINARY_OP                0 (+)
+            436 LOAD_CONST               1 ('========================================')
+            438 BINARY_OP                0 (+)
+            442 LOAD_CONST               5 ('\n')
+            444 BINARY_OP                0 (+)
+            448 CALL                     1
+            456 POP_TOP
+            458 RETURN_CONST             0 (None)
+
+Disassembly of <code object setup_directories at 0xb41ca180, file "recoil.py", line 33>:
+ 33           0 RESUME                   0
+
+ 34           2 LOAD_GLOBAL              0 (os)
+             12 LOAD_ATTR                2 (path)
+             32 LOAD_ATTR                5 (NULL|self + join)
+             52 LOAD_GLOBAL              1 (NULL + os)
+             62 LOAD_ATTR                6 (getenv)
+             82 LOAD_CONST               1 ('HOME')
+             84 CALL                     1
+             92 LOAD_CONST               2 ('RECOIL')
+             94 CALL                     2
+            102 STORE_FAST               0 (base_dir)
+
+ 35         104 LOAD_GLOBAL              0 (os)
+            114 LOAD_ATTR                2 (path)
+            134 LOAD_ATTR                5 (NULL|self + join)
+            154 LOAD_FAST                0 (base_dir)
+            156 LOAD_CONST               3 ('INPUT')
+            158 CALL                     2
+            166 STORE_FAST               1 (input_dir)
+
+ 37         168 NOP
+
+ 38         170 LOAD_GLOBAL              1 (NULL + os)
+            180 LOAD_ATTR                8 (makedirs)
+            200 LOAD_FAST                1 (input_dir)
+            202 LOAD_CONST               4 (True)
+            204 KW_NAMES                 5 (('exist_ok',))
+            206 CALL                     2
+            214 POP_TOP
+
+ 39         216 LOAD_GLOBAL             11 (NULL + print)
+            226 LOAD_GLOBAL             12 (Fore)
+            236 LOAD_ATTR               14 (GREEN)
+            256 LOAD_CONST               6 ("[SETUP] Direktori '")
+            258 LOAD_FAST                1 (input_dir)
+            260 FORMAT_VALUE             0
+            262 LOAD_CONST               7 ("'.")
+            264 BUILD_STRING             3
+            266 BINARY_OP                0 (+)
+            270 CALL                     1
+            278 POP_TOP
+            280 RETURN_CONST             0 (None)
+        >>  282 PUSH_EXC_INFO
+
+ 40         284 LOAD_GLOBAL             16 (Exception)
+            294 CHECK_EXC_MATCH
+            296 POP_JUMP_IF_FALSE       51 (to 400)
+            298 STORE_FAST               2 (e)
+
+ 41         300 LOAD_GLOBAL             11 (NULL + print)
+            310 LOAD_GLOBAL             12 (Fore)
+            320 LOAD_ATTR               18 (RED)
+            340 LOAD_CONST               8 ('[ERROR] ERROR DIREKTORI: ')
+            342 LOAD_FAST                2 (e)
+            344 FORMAT_VALUE             0
+            346 BUILD_STRING             2
+            348 BINARY_OP                0 (+)
+            352 CALL                     1
+            360 POP_TOP
+
+ 42         362 LOAD_GLOBAL             21 (NULL + exit)
+            372 CALL                     0
+            380 POP_TOP
+            382 POP_EXCEPT
+            384 LOAD_CONST               0 (None)
+            386 STORE_FAST               2 (e)
+            388 DELETE_FAST              2 (e)
+            390 RETURN_CONST             0 (None)
+        >>  392 LOAD_CONST               0 (None)
+            394 STORE_FAST               2 (e)
+            396 DELETE_FAST              2 (e)
+            398 RERAISE                  1
+
+ 40     >>  400 RERAISE                  0
+        >>  402 COPY                     3
+            404 POP_EXCEPT
+            406 RERAISE                  1
+ExceptionTable:
+  170 to 278 -> 282 [0]
+  282 to 298 -> 402 [1] lasti
+  300 to 380 -> 392 [1] lasti
+  392 to 400 -> 402 [1] lasti
+
+Disassembly of <code object get_location at 0xb4455b10, file "recoil.py", line 44>:
+ 44           0 RESUME                   0
+
+ 45           2 NOP
+
+ 46           4 LOAD_GLOBAL              1 (NULL + requests)
+             14 LOAD_ATTR                2 (get)
+             34 LOAD_CONST               1 ('https://ipinfo.io/json')
+             36 LOAD_CONST               2 (5)
+             38 KW_NAMES                 3 (('timeout',))
+             40 CALL                     2
+             48 LOAD_ATTR                5 (NULL|self + json)
+             68 CALL                     0
+             76 STORE_FAST               0 (res)
+
+ 47          78 LOAD_FAST                0 (res)
+             80 LOAD_ATTR                3 (NULL|self + get)
+            100 LOAD_CONST               4 ('country')
+            102 LOAD_CONST               5 ('UNKNOWN')
+            104 CALL                     2
+            112 STORE_FAST               1 (country)
+
+ 48         114 LOAD_FAST                0 (res)
+            116 LOAD_ATTR                3 (NULL|self + get)
+            136 LOAD_CONST               6 ('region')
+            138 LOAD_CONST               7 ('-')
+            140 CALL                     2
+            148 STORE_FAST               2 (region)
+
+ 49         150 LOAD_FAST                0 (res)
+            152 LOAD_ATTR                3 (NULL|self + get)
+            172 LOAD_CONST               8 ('city')
+            174 LOAD_CONST               7 ('-')
+            176 CALL                     2
+            184 STORE_FAST               3 (city)
+
+ 50         186 LOAD_CONST               9 ('')
+            188 LOAD_ATTR                7 (NULL|self + join)
+            208 LOAD_CONST              10 (<code object <genexpr> at 0xb4253420, file "recoil.py", line 50>)
+            210 MAKE_FUNCTION            0
+            212 LOAD_FAST                1 (country)
+            214 GET_ITER
+            216 CALL                     0
+            224 CALL                     1
+            232 STORE_FAST               4 (flag)
+
+ 51         234 LOAD_FAST                1 (country)
+            236 FORMAT_VALUE             0
+            238 LOAD_CONST              11 (' [')
+            240 LOAD_FAST                4 (flag)
+            242 FORMAT_VALUE             0
+            244 LOAD_CONST              12 ('] - ')
+            246 LOAD_FAST                2 (region)
+            248 FORMAT_VALUE             0
+            250 LOAD_CONST              13 (' - ')
+            252 LOAD_FAST                3 (city)
+            254 FORMAT_VALUE             0
+            256 BUILD_STRING             7
+            258 RETURN_VALUE
+        >>  260 PUSH_EXC_INFO
+
+ 52         262 POP_TOP
+
+ 53         264 POP_EXCEPT
+            266 RETURN_CONST             5 ('UNKNOWN')
+        >>  268 COPY                     3
+            270 POP_EXCEPT
+            272 RERAISE                  1
+ExceptionTable:
+  4 to 256 -> 260 [0]
+  260 to 262 -> 268 [1] lasti
+
+Disassembly of <code object <genexpr> at 0xb4253420, file "recoil.py", line 50>:
+ 50           0 RETURN_GENERATOR
+              2 POP_TOP
+              4 RESUME                   0
+              6 LOAD_FAST                0 (.0)
+        >>    8 FOR_ITER                53 (to 118)
+             12 STORE_FAST               1 (c)
+             14 LOAD_GLOBAL              1 (NULL + chr)
+             24 LOAD_CONST               0 (127462)
+             26 LOAD_GLOBAL              3 (NULL + ord)
+             36 LOAD_FAST                1 (c)
+             38 LOAD_ATTR                5 (NULL|self + upper)
+             58 CALL                     0
+             66 CALL                     1
+             74 BINARY_OP                0 (+)
+             78 LOAD_GLOBAL              3 (NULL + ord)
+             88 LOAD_CONST               1 ('A')
+             90 CALL                     1
+             98 BINARY_OP               10 (-)
+            102 CALL                     1
+            110 YIELD_VALUE              1
+            112 RESUME                   1
+            114 POP_TOP
+            116 JUMP_BACKWARD           55 (to 8)
+        >>  118 END_FOR
+            120 RETURN_CONST             2 (None)
+        >>  122 CALL_INTRINSIC_1         3 (INTRINSIC_STOPITERATION_ERROR)
+            124 RERAISE                  1
+ExceptionTable:
+  4 to 120 -> 122 [0] lasti
+
+Disassembly of <code object send_login_notification at 0xb432ba00, file "recoil.py", line 55>:
+ 55           0 RESUME                   0
+
+ 56           2 NOP
+
+ 57           4 LOAD_GLOBAL              1 (NULL + get_location)
+             14 CALL                     0
+             22 STORE_FAST               0 (location)
+
+ 58          24 LOAD_GLOBAL              3 (NULL + socket)
+             34 LOAD_ATTR                4 (gethostname)
+             54 CALL                     0
+             62 STORE_FAST               1 (hostname)
+
+ 59          64 LOAD_GLOBAL              7 (NULL + platform)
+             74 LOAD_ATTR                8 (system)
+             94 CALL                     0
+            102 FORMAT_VALUE             0
+            104 LOAD_CONST               1 (' ')
+            106 LOAD_GLOBAL              7 (NULL + platform)
+            116 LOAD_ATTR               10 (machine)
+            136 CALL                     0
+            144 FORMAT_VALUE             0
+            146 LOAD_CONST               2 (' - ')
+            148 LOAD_FAST                1 (hostname)
+            150 FORMAT_VALUE             0
+            152 BUILD_STRING             5
+            154 STORE_FAST               2 (device)
+
+ 60         156 LOAD_GLOBAL             12 (datetime)
+            166 LOAD_ATTR               12 (datetime)
+            186 LOAD_ATTR               15 (NULL|self + now)
+            206 CALL                     0
+            214 LOAD_ATTR               17 (NULL|self + strftime)
+            234 LOAD_CONST               3 ('%d/%m/%Y - %H:%M')
+            236 CALL                     1
+            244 STORE_FAST               3 (waktu)
+
+ 61         246 LOAD_CONST               4 ('NO RECOIL TOOL')
+            248 STORE_FAST               4 (tools_name)
+
+ 64         250 LOAD_CONST               5 ('🔰 LOGIN NOTIFICATION 🔰\n\n📦 NAMA TOOLS = "')
+
+ 65         252 LOAD_FAST                4 (tools_name)
+            254 FORMAT_VALUE             0
+            256 LOAD_CONST               6 ('"\n💻 DEVICE = ')
+
+ 66         258 LOAD_FAST                2 (device)
+            260 FORMAT_VALUE             0
+            262 LOAD_CONST               7 ('\n⏰️ WAKTU = ')
+
+ 67         264 LOAD_FAST                3 (waktu)
+            266 FORMAT_VALUE             0
+            268 LOAD_CONST               8 ('\n🌍 LOKASI = ')
+
+ 68         270 LOAD_FAST                0 (location)
+            272 FORMAT_VALUE             0
+            274 LOAD_CONST               9 ('\n� TOTAL PENGGUNA = Tidak dihitung di versi ini')
+
+ 64         276 BUILD_STRING             9
+
+ 63         278 STORE_FAST               5 (message)
+
+ 72         280 LOAD_GLOBAL             19 (NULL + requests)
+            290 LOAD_ATTR               20 (post)
+
+ 73         310 LOAD_CONST              10 ('https://api.telegram.org/bot')
+            312 LOAD_GLOBAL             22 (BOT_TOKEN)
+            322 FORMAT_VALUE             0
+            324 LOAD_CONST              11 ('/sendMessage')
+            326 BUILD_STRING             3
+
+ 74         328 LOAD_GLOBAL             24 (CHAT_ID)
+            338 LOAD_FAST                5 (message)
+            340 LOAD_CONST              12 (('chat_id', 'text'))
+            342 BUILD_CONST_KEY_MAP      2
+
+ 72         344 KW_NAMES                13 (('data',))
+            346 CALL                     2
+            354 STORE_FAST               6 (response)
+
+ 77         356 LOAD_FAST                6 (response)
+            358 LOAD_ATTR               26 (status_code)
+            378 LOAD_CONST              14 (200)
+            380 COMPARE_OP              55 (!=)
+            384 POP_JUMP_IF_FALSE       42 (to 470)
+
+ 78         386 LOAD_GLOBAL             29 (NULL + print)
+            396 LOAD_GLOBAL             30 (Fore)
+            406 LOAD_ATTR               32 (RED)
+            426 LOAD_CONST              15 ('[ERROR] Telegram API error: ')
+            428 LOAD_FAST                6 (response)
+            430 LOAD_ATTR               34 (text)
+            450 FORMAT_VALUE             0
+            452 BUILD_STRING             2
+            454 BINARY_OP                0 (+)
+            458 CALL                     1
+            466 POP_TOP
+            468 RETURN_CONST             0 (None)
+
+ 77     >>  470 RETURN_CONST             0 (None)
+        >>  472 PUSH_EXC_INFO
+
+ 80         474 LOAD_GLOBAL             36 (Exception)
+            484 CHECK_EXC_MATCH
+            486 POP_JUMP_IF_FALSE       41 (to 570)
+            488 STORE_FAST               7 (e)
+
+ 81         490 LOAD_GLOBAL             29 (NULL + print)
+            500 LOAD_GLOBAL             30 (Fore)
+            510 LOAD_ATTR               32 (RED)
+            530 LOAD_CONST              16 ('[ERROR] Gagal mengirim notifikasi: ')
+            532 LOAD_FAST                7 (e)
+            534 FORMAT_VALUE             0
+            536 BUILD_STRING             2
+            538 BINARY_OP                0 (+)
+            542 CALL                     1
+            550 POP_TOP
+            552 POP_EXCEPT
+            554 LOAD_CONST               0 (None)
+            556 STORE_FAST               7 (e)
+            558 DELETE_FAST              7 (e)
+            560 RETURN_CONST             0 (None)
+        >>  562 LOAD_CONST               0 (None)
+            564 STORE_FAST               7 (e)
+            566 DELETE_FAST              7 (e)
+            568 RERAISE                  1
+
+ 80     >>  570 RERAISE                  0
+        >>  572 COPY                     3
+            574 POP_EXCEPT
+            576 RERAISE                  1
+ExceptionTable:
+  4 to 466 -> 472 [0]
+  472 to 488 -> 572 [1] lasti
+  490 to 550 -> 562 [1] lasti
+  562 to 570 -> 572 [1] lasti
+
+Disassembly of <code object fetch_key_data at 0xb4344000, file "recoil.py", line 83>:
+ 83           0 RESUME                   0
+
+ 84           2 NOP
+
+ 85           4 LOAD_GLOBAL              1 (NULL + requests)
+             14 LOAD_ATTR                2 (get)
+             34 LOAD_GLOBAL              4 (PASTELINK_URL)
+             44 LOAD_CONST               1 (10)
+             46 KW_NAMES                 2 (('timeout',))
+             48 CALL                     2
+             56 STORE_FAST               0 (response)
+
+ 86          58 LOAD_FAST                0 (response)
+             60 LOAD_ATTR                6 (status_code)
+             80 LOAD_CONST               3 (200)
+             82 COMPARE_OP              40 (==)
+             86 POP_JUMP_IF_FALSE      182 (to 452)
+
+ 87          88 LOAD_FAST                0 (response)
+             90 LOAD_ATTR                8 (text)
+            110 LOAD_ATTR               11 (NULL|self + strip)
+            130 CALL                     0
+            138 LOAD_ATTR               13 (NULL|self + splitlines)
+            158 CALL                     0
+            166 STORE_FAST               1 (lines)
+
+ 88         168 LOAD_GLOBAL             15 (NULL + next)
+            178 LOAD_CONST               4 (<code object <genexpr> at 0xb4244260, file "recoil.py", line 88>)
+            180 MAKE_FUNCTION            0
+            182 LOAD_FAST                1 (lines)
+            184 GET_ITER
+            186 CALL                     0
+            194 LOAD_CONST               0 (None)
+            196 CALL                     2
+            204 STORE_FAST               2 (key_line)
+
+ 89         206 LOAD_GLOBAL             15 (NULL + next)
+            216 LOAD_CONST               5 (<code object <genexpr> at 0xb42441a0, file "recoil.py", line 89>)
+            218 MAKE_FUNCTION            0
+            220 LOAD_FAST                1 (lines)
+            222 GET_ITER
+            224 CALL                     0
+            232 LOAD_CONST               0 (None)
+            234 CALL                     2
+            242 STORE_FAST               3 (expire_line)
+
+ 90         244 LOAD_FAST                2 (key_line)
+            246 POP_JUMP_IF_FALSE      102 (to 452)
+            248 LOAD_FAST                3 (expire_line)
+            250 POP_JUMP_IF_FALSE      100 (to 452)
+
+ 91         252 LOAD_FAST                2 (key_line)
+            254 LOAD_ATTR               17 (NULL|self + replace)
+            274 LOAD_CONST               6 ('KEY=')
+            276 LOAD_CONST               7 ('')
+            278 CALL                     2
+            286 LOAD_ATTR               11 (NULL|self + strip)
+            306 CALL                     0
+            314 STORE_FAST               4 (key)
+
+ 92         316 LOAD_FAST                3 (expire_line)
+            318 LOAD_ATTR               17 (NULL|self + replace)
+            338 LOAD_CONST               8 ('EXPIRE=')
+            340 LOAD_CONST               7 ('')
+            342 CALL                     2
+            350 LOAD_ATTR               11 (NULL|self + strip)
+            370 CALL                     0
+            378 STORE_FAST               5 (expire_str)
+
+ 93         380 LOAD_GLOBAL             18 (datetime)
+            390 LOAD_ATTR               18 (datetime)
+            410 LOAD_ATTR               21 (NULL|self + strptime)
+            430 LOAD_FAST                5 (expire_str)
+            432 LOAD_CONST               9 ('%Y-%m-%d %H:%M:%S')
+            434 CALL                     2
+            442 STORE_FAST               6 (expire)
+
+ 94         444 LOAD_FAST                4 (key)
+            446 LOAD_FAST                6 (expire)
+            448 BUILD_TUPLE              2
+            450 RETURN_VALUE
+
+ 97     >>  452 RETURN_CONST            11 ((None, None))
+        >>  454 PUSH_EXC_INFO
+
+ 95         456 LOAD_GLOBAL             22 (Exception)
+            466 CHECK_EXC_MATCH
+            468 POP_JUMP_IF_FALSE       41 (to 552)
+            470 STORE_FAST               7 (e)
+
+ 96         472 LOAD_GLOBAL             25 (NULL + print)
+            482 LOAD_GLOBAL             26 (Fore)
+            492 LOAD_ATTR               28 (RED)
+            512 LOAD_CONST              10 ('[ERROR] Gagal mengambil data key: ')
+            514 LOAD_FAST                7 (e)
+            516 FORMAT_VALUE             0
+            518 BUILD_STRING             2
+            520 BINARY_OP                0 (+)
+            524 CALL                     1
+            532 POP_TOP
+            534 POP_EXCEPT
+            536 LOAD_CONST               0 (None)
+            538 STORE_FAST               7 (e)
+            540 DELETE_FAST              7 (e)
+
+ 97         542 RETURN_CONST            11 ((None, None))
+        >>  544 LOAD_CONST               0 (None)
+            546 STORE_FAST               7 (e)
+            548 DELETE_FAST              7 (e)
+            550 RERAISE                  1
+
+ 95     >>  552 RERAISE                  0
+        >>  554 COPY                     3
+            556 POP_EXCEPT
+            558 RERAISE                  1
+ExceptionTable:
+  4 to 448 -> 454 [0]
+  454 to 470 -> 554 [1] lasti
+  472 to 532 -> 544 [1] lasti
+  544 to 552 -> 554 [1] lasti
+
+Disassembly of <code object <genexpr> at 0xb4244260, file "recoil.py", line 88>:
+ 88           0 RETURN_GENERATOR
+              2 POP_TOP
+              4 RESUME                   0
+              6 LOAD_FAST                0 (.0)
+        >>    8 FOR_ITER                24 (to 60)
+             12 STORE_FAST               1 (line)
+             14 LOAD_FAST                1 (line)
+             16 LOAD_ATTR                1 (NULL|self + startswith)
+             36 LOAD_CONST               0 ('KEY=')
+             38 CALL                     1
+             46 POP_JUMP_IF_TRUE         1 (to 50)
+             48 JUMP_BACKWARD           21 (to 8)
+        >>   50 LOAD_FAST                1 (line)
+             52 YIELD_VALUE              1
+             54 RESUME                   1
+             56 POP_TOP
+             58 JUMP_BACKWARD           26 (to 8)
+        >>   60 END_FOR
+             62 RETURN_CONST             1 (None)
+        >>   64 CALL_INTRINSIC_1         3 (INTRINSIC_STOPITERATION_ERROR)
+             66 RERAISE                  1
+ExceptionTable:
+  4 to 46 -> 64 [0] lasti
+  50 to 62 -> 64 [0] lasti
+
+Disassembly of <code object <genexpr> at 0xb42441a0, file "recoil.py", line 89>:
+ 89           0 RETURN_GENERATOR
+              2 POP_TOP
+              4 RESUME                   0
+              6 LOAD_FAST                0 (.0)
+        >>    8 FOR_ITER                24 (to 60)
+             12 STORE_FAST               1 (line)
+             14 LOAD_FAST                1 (line)
+             16 LOAD_ATTR                1 (NULL|self + startswith)
+             36 LOAD_CONST               0 ('EXPIRE=')
+             38 CALL                     1
+             46 POP_JUMP_IF_TRUE         1 (to 50)
+             48 JUMP_BACKWARD           21 (to 8)
+        >>   50 LOAD_FAST                1 (line)
+             52 YIELD_VALUE              1
+             54 RESUME                   1
+             56 POP_TOP
+             58 JUMP_BACKWARD           26 (to 8)
+        >>   60 END_FOR
+             62 RETURN_CONST             1 (None)
+        >>   64 CALL_INTRINSIC_1         3 (INTRINSIC_STOPITERATION_ERROR)
+             66 RERAISE                  1
+ExceptionTable:
+  4 to 46 -> 64 [0] lasti
+  50 to 62 -> 64 [0] lasti
+
+Disassembly of <code object validate_key at 0xb4344300, file "recoil.py", line 99>:
+ 99           0 RESUME                   0
+
+100           2 LOAD_GLOBAL              1 (NULL + print_banner)
+             12 CALL                     0
+             20 POP_TOP
+
+101          22 LOAD_GLOBAL              3 (NULL + input)
+             32 LOAD_GLOBAL              4 (Fore)
+             42 LOAD_ATTR                6 (YELLOW)
+             62 LOAD_CONST               1 ('ENTER YOUR KEY = ')
+             64 BINARY_OP                0 (+)
+             68 CALL                     1
+             76 LOAD_ATTR                9 (NULL|self + strip)
+             96 CALL                     0
+            104 STORE_FAST               0 (input_key)
+
+102         106 LOAD_GLOBAL             11 (NULL + fetch_key_data)
+            116 CALL                     0
+            124 UNPACK_SEQUENCE          2
+            128 STORE_FAST               1 (valid_key)
+            130 STORE_FAST               2 (expire_date)
+
+104         132 LOAD_FAST                1 (valid_key)
+            134 POP_JUMP_IF_TRUE        38 (to 212)
+
+105         136 LOAD_GLOBAL             13 (NULL + print)
+            146 LOAD_GLOBAL              4 (Fore)
+            156 LOAD_ATTR               14 (RED)
+            176 LOAD_CONST               2 ('\nKONEKSI ERROR.')
+            178 BINARY_OP                0 (+)
+            182 CALL                     1
+            190 POP_TOP
+
+106         192 LOAD_GLOBAL             17 (NULL + exit)
+            202 CALL                     0
+            210 POP_TOP
+
+108     >>  212 LOAD_FAST                0 (input_key)
+            214 LOAD_FAST                1 (valid_key)
+            216 COMPARE_OP              40 (==)
+            220 POP_JUMP_IF_FALSE      119 (to 460)
+            222 LOAD_GLOBAL             18 (datetime)
+            232 LOAD_ATTR               18 (datetime)
+            252 LOAD_ATTR               21 (NULL|self + now)
+            272 CALL                     0
+            280 LOAD_FAST                2 (expire_date)
+            282 COMPARE_OP               2 (<)
+            286 POP_JUMP_IF_FALSE       86 (to 460)
+
+109         288 LOAD_GLOBAL             13 (NULL + print)
+            298 LOAD_GLOBAL              4 (Fore)
+            308 LOAD_ATTR               22 (GREEN)
+            328 LOAD_CONST               3 ('\nAUTENTIKASI BERHASIL\n')
+            330 BINARY_OP                0 (+)
+            334 CALL                     1
+            342 POP_TOP
+
+110         344 LOAD_GLOBAL             25 (NULL + send_login_notification)
+            354 CALL                     0
+            362 POP_TOP
+
+111         364 LOAD_GLOBAL             27 (NULL + os)
+            374 LOAD_ATTR               28 (system)
+            394 LOAD_GLOBAL             26 (os)
+            404 LOAD_ATTR               30 (name)
+            424 LOAD_CONST               4 ('nt')
+            426 COMPARE_OP              40 (==)
+            430 POP_JUMP_IF_FALSE        7 (to 446)
+            432 LOAD_CONST               5 ('cls')
+            434 CALL                     1
+            442 POP_TOP
+
+112         444 RETURN_CONST             7 (True)
+
+111     >>  446 LOAD_CONST               6 ('clear')
+            448 CALL                     1
+            456 POP_TOP
+
+112         458 RETURN_CONST             7 (True)
+
+114     >>  460 LOAD_GLOBAL             13 (NULL + print)
+            470 LOAD_GLOBAL              4 (Fore)
+            480 LOAD_ATTR               14 (RED)
+            500 LOAD_CONST               8 ('\nAUNTENYIKASI GAGAL')
+            502 BINARY_OP                0 (+)
+            506 CALL                     1
+            514 POP_TOP
+
+115         516 LOAD_GLOBAL             17 (NULL + exit)
+            526 CALL                     0
+            534 POP_TOP
+            536 RETURN_CONST             0 (None)
+
+Disassembly of <code object verify_modification at 0xb4a515e0, file "recoil.py", line 117>:
+117           0 RESUME                   0
+
+118           2 LOAD_FAST                0 (original)
+              4 STORE_FAST               3 (original_copy)
+
+119           6 LOAD_FAST                1 (modified)
+              8 STORE_FAST               4 (modified_copy)
+
+121          10 LOAD_FAST                2 (allowed_patterns)
+             12 GET_ITER
+        >>   14 FOR_ITER                46 (to 110)
+             18 STORE_FAST               5 (pattern)
+
+122          20 LOAD_CONST               1 (b'\x00')
+             22 LOAD_FAST                5 (pattern)
+             24 LOAD_CONST               2 (1)
+             26 LOAD_CONST               0 (None)
+             28 BINARY_SLICE
+             30 BINARY_OP                0 (+)
+             34 STORE_FAST               6 (replacement)
+
+123          36 LOAD_FAST                3 (original_copy)
+             38 LOAD_ATTR                1 (NULL|self + replace)
+             58 LOAD_FAST                5 (pattern)
+             60 LOAD_CONST               3 (b'')
+             62 CALL                     2
+             70 STORE_FAST               3 (original_copy)
+
+124          72 LOAD_FAST                4 (modified_copy)
+             74 LOAD_ATTR                1 (NULL|self + replace)
+             94 LOAD_FAST                6 (replacement)
+             96 LOAD_CONST               3 (b'')
+             98 CALL                     2
+            106 STORE_FAST               4 (modified_copy)
+            108 JUMP_BACKWARD           48 (to 14)
+
+121     >>  110 END_FOR
+
+126         112 LOAD_FAST                3 (original_copy)
+            114 LOAD_FAST                4 (modified_copy)
+            116 COMPARE_OP              40 (==)
+            120 POP_JUMP_IF_FALSE       29 (to 180)
+
+127         122 LOAD_GLOBAL              3 (NULL + print)
+            132 LOAD_GLOBAL              4 (Fore)
+            142 LOAD_ATTR                6 (GREEN)
+            162 LOAD_CONST               4 ('[CHECK] FILE TIDAK TERDAPAT ERROR')
+            164 BINARY_OP                0 (+)
+            168 CALL                     1
+            176 POP_TOP
+
+128         178 RETURN_CONST             5 (True)
+
+130     >>  180 LOAD_GLOBAL              3 (NULL + print)
+            190 LOAD_GLOBAL              4 (Fore)
+            200 LOAD_ATTR                8 (RED)
+            220 LOAD_CONST               6 ('[CHECK] FILE ERROR')
+            222 BINARY_OP                0 (+)
+            226 CALL                     1
+            234 POP_TOP
+
+131         236 RETURN_CONST             7 (False)
+
+Disassembly of <code object replace_weapon_pattern at 0xb4344900, file "recoil.py", line 133>:
+133           0 RESUME                   0
+
+134           2 NOP
+
+135           4 LOAD_GLOBAL              1 (NULL + open)
+             14 LOAD_FAST                0 (file_path)
+             16 LOAD_CONST               1 ('rb')
+             18 CALL                     2
+             26 BEFORE_WITH
+             28 STORE_FAST               2 (file)
+
+136          30 LOAD_FAST                2 (file)
+             32 LOAD_ATTR                3 (NULL|self + read)
+             52 CALL                     0
+             60 STORE_FAST               3 (original_content)
+
+135          62 LOAD_CONST               0 (None)
+             64 LOAD_CONST               0 (None)
+             66 LOAD_CONST               0 (None)
+             68 CALL                     2
+             76 POP_TOP
+
+138     >>   78 LOAD_FAST_CHECK          3 (original_content)
+             80 STORE_FAST               4 (modified_content)
+
+139          82 LOAD_CONST               2 (False)
+             84 STORE_FAST               5 (modified)
+
+141          86 LOAD_FAST                1 (patterns)
+             88 GET_ITER
+        >>   90 FOR_ITER                35 (to 164)
+             94 STORE_FAST               6 (pattern)
+
+142          96 LOAD_FAST                6 (pattern)
+             98 LOAD_FAST                4 (modified_content)
+            100 CONTAINS_OP              0
+            102 POP_JUMP_IF_TRUE         1 (to 106)
+            104 JUMP_BACKWARD            8 (to 90)
+
+143     >>  106 LOAD_CONST               3 (b'\x00')
+            108 LOAD_FAST                6 (pattern)
+            110 LOAD_CONST               4 (1)
+            112 LOAD_CONST               0 (None)
+            114 BINARY_SLICE
+            116 BINARY_OP                0 (+)
+            120 STORE_FAST               7 (replacement)
+
+144         122 LOAD_FAST                4 (modified_content)
+            124 LOAD_ATTR                5 (NULL|self + replace)
+            144 LOAD_FAST                6 (pattern)
+            146 LOAD_FAST                7 (replacement)
+            148 CALL                     2
+            156 STORE_FAST               4 (modified_content)
+
+145         158 LOAD_CONST               5 (True)
+            160 STORE_FAST               5 (modified)
+            162 JUMP_BACKWARD           37 (to 90)
+
+141     >>  164 END_FOR
+
+147         166 LOAD_FAST                5 (modified)
+            168 POP_JUMP_IF_FALSE       83 (to 336)
+
+148         170 LOAD_GLOBAL              1 (NULL + open)
+            180 LOAD_FAST                0 (file_path)
+            182 LOAD_CONST               6 ('wb')
+            184 CALL                     2
+            192 BEFORE_WITH
+            194 STORE_FAST               2 (file)
+
+149         196 LOAD_FAST                2 (file)
+            198 LOAD_ATTR                7 (NULL|self + write)
+            218 LOAD_FAST                4 (modified_content)
+            220 CALL                     1
+            228 POP_TOP
+
+148         230 LOAD_CONST               0 (None)
+            232 LOAD_CONST               0 (None)
+            234 LOAD_CONST               0 (None)
+            236 CALL                     2
+            244 POP_TOP
+
+150     >>  246 LOAD_GLOBAL              9 (NULL + print)
+            256 LOAD_GLOBAL             10 (Fore)
+            266 LOAD_ATTR               12 (GREEN)
+            286 LOAD_CONST               7 ('[SUCCESS] NO RECOIL BERHASIL: ')
+            288 LOAD_FAST                0 (file_path)
+            290 FORMAT_VALUE             0
+            292 BUILD_STRING             2
+            294 BINARY_OP                0 (+)
+            298 CALL                     1
+            306 POP_TOP
+
+151         308 LOAD_GLOBAL             15 (NULL + verify_modification)
+            318 LOAD_FAST                3 (original_content)
+            320 LOAD_FAST                4 (modified_content)
+            322 LOAD_FAST                1 (patterns)
+            324 CALL                     3
+            332 POP_TOP
+            334 RETURN_CONST             0 (None)
+
+153     >>  336 LOAD_GLOBAL              9 (NULL + print)
+            346 LOAD_GLOBAL             10 (Fore)
+            356 LOAD_ATTR               16 (YELLOW)
+            376 LOAD_CONST               8 ('[SKIP] TERDAPAT KESALAHAN PADA FILE: ')
+            378 LOAD_FAST                0 (file_path)
+            380 FORMAT_VALUE             0
+            382 BUILD_STRING             2
+            384 BINARY_OP                0 (+)
+            388 CALL                     1
+            396 POP_TOP
+            398 RETURN_CONST             0 (None)
+
+135     >>  400 PUSH_EXC_INFO
+            402 WITH_EXCEPT_START
+            404 POP_JUMP_IF_TRUE         1 (to 408)
+            406 RERAISE                  2
+        >>  408 POP_TOP
+            410 POP_EXCEPT
+            412 POP_TOP
+            414 POP_TOP
+            416 JUMP_BACKWARD          170 (to 78)
+        >>  418 COPY                     3
+            420 POP_EXCEPT
+            422 RERAISE                  1
+
+148     >>  424 PUSH_EXC_INFO
+            426 WITH_EXCEPT_START
+            428 POP_JUMP_IF_TRUE         1 (to 432)
+            430 RERAISE                  2
+        >>  432 POP_TOP
+            434 POP_EXCEPT
+            436 POP_TOP
+            438 POP_TOP
+            440 JUMP_BACKWARD           98 (to 246)
+        >>  442 COPY                     3
+            444 POP_EXCEPT
+            446 RERAISE                  1
+        >>  448 PUSH_EXC_INFO
+
+155         450 LOAD_GLOBAL             18 (Exception)
+            460 CHECK_EXC_MATCH
+            462 POP_JUMP_IF_FALSE       44 (to 552)
+            464 STORE_FAST               8 (e)
+
+156         466 LOAD_GLOBAL              9 (NULL + print)
+            476 LOAD_GLOBAL             10 (Fore)
+            486 LOAD_ATTR               20 (RED)
+            506 LOAD_CONST               9 ('[ERROR] GAGAL MEMPROSES FILE ')
+            508 LOAD_FAST                0 (file_path)
+            510 FORMAT_VALUE             0
+            512 LOAD_CONST              10 (': ')
+            514 LOAD_FAST                8 (e)
+            516 FORMAT_VALUE             0
+            518 BUILD_STRING             4
+            520 BINARY_OP                0 (+)
+            524 CALL                     1
+            532 POP_TOP
+            534 POP_EXCEPT
+            536 LOAD_CONST               0 (None)
+            538 STORE_FAST               8 (e)
+            540 DELETE_FAST              8 (e)
+            542 RETURN_CONST             0 (None)
+        >>  544 LOAD_CONST               0 (None)
+            546 STORE_FAST               8 (e)
+            548 DELETE_FAST              8 (e)
+            550 RERAISE                  1
+
+155     >>  552 RERAISE                  0
+        >>  554 COPY                     3
+            556 POP_EXCEPT
+            558 RERAISE                  1
+ExceptionTable:
+  4 to 26 -> 448 [0]
+  28 to 60 -> 400 [1] lasti
+  62 to 102 -> 448 [0]
+  106 to 192 -> 448 [0]
+  194 to 228 -> 424 [1] lasti
+  230 to 332 -> 448 [0]
+  336 to 396 -> 448 [0]
+  400 to 408 -> 418 [3] lasti
+  410 to 422 -> 448 [0]
+  424 to 432 -> 442 [3] lasti
+  434 to 446 -> 448 [0]
+  448 to 464 -> 554 [1] lasti
+  466 to 532 -> 544 [1] lasti
+  544 to 552 -> 554 [1] lasti
+
+Disassembly of <code object process_directory at 0xb44363f8, file "recoil.py", line 158>:
+158           0 RESUME                   0
+
+159           2 LOAD_GLOBAL              1 (NULL + os)
+             12 LOAD_ATTR                2 (walk)
+             32 LOAD_FAST                0 (directory)
+             34 CALL                     1
+             42 GET_ITER
+        >>   44 FOR_ITER                75 (to 198)
+             48 UNPACK_SEQUENCE          3
+             52 STORE_FAST               2 (root)
+             54 STORE_FAST               3 (_)
+             56 STORE_FAST               4 (files)
+
+160          58 LOAD_FAST                4 (files)
+             60 GET_ITER
+        >>   62 FOR_ITER                64 (to 194)
+             66 STORE_FAST               5 (filename)
+
+161          68 LOAD_FAST                5 (filename)
+             70 LOAD_ATTR                5 (NULL|self + endswith)
+             90 LOAD_CONST               1 ('.pak')
+             92 CALL                     1
+            100 POP_JUMP_IF_TRUE         1 (to 104)
+            102 JUMP_BACKWARD           21 (to 62)
+
+162     >>  104 LOAD_GLOBAL              0 (os)
+            114 LOAD_ATTR                6 (path)
+            134 LOAD_ATTR                9 (NULL|self + join)
+            154 LOAD_FAST                2 (root)
+            156 LOAD_FAST                5 (filename)
+            158 CALL                     2
+            166 STORE_FAST               6 (file_path)
+
+163         168 LOAD_GLOBAL             11 (NULL + replace_weapon_pattern)
+            178 LOAD_FAST                6 (file_path)
+            180 LOAD_FAST                1 (patterns)
+            182 CALL                     2
+            190 POP_TOP
+            192 JUMP_BACKWARD           66 (to 62)
+
+160     >>  194 END_FOR
+            196 JUMP_BACKWARD           77 (to 44)
+
+159     >>  198 END_FOR
+            200 RETURN_CONST             0 (None)
+
+Disassembly of <code object main at 0xb435b400, file "recoil.py", line 165>:
+165           0 RESUME                   0
+
+166           2 LOAD_GLOBAL              1 (NULL + setup_directories)
+             12 CALL                     0
+             20 POP_TOP
+
+168          22 LOAD_GLOBAL              3 (NULL + validate_key)
+             32 CALL                     0
+             40 POP_JUMP_IF_TRUE         1 (to 44)
+
+169          42 RETURN_CONST             0 (None)
+
+171     >>   44 LOAD_GLOBAL              5 (NULL + print)
+             54 LOAD_GLOBAL              6 (Fore)
+             64 LOAD_ATTR                8 (CYAN)
+             84 LOAD_GLOBAL             10 (Style)
+             94 LOAD_ATTR               12 (BRIGHT)
+            114 BINARY_OP                0 (+)
+            118 LOAD_CONST               1 ('========================================')
+            120 BINARY_OP                0 (+)
+            124 CALL                     1
+            132 POP_TOP
+
+172         134 LOAD_GLOBAL              5 (NULL + print)
+            144 LOAD_GLOBAL              6 (Fore)
+            154 LOAD_ATTR               14 (YELLOW)
+            174 LOAD_GLOBAL             10 (Style)
+            184 LOAD_ATTR               12 (BRIGHT)
+            204 BINARY_OP                0 (+)
+            208 LOAD_CONST               2 ('        WEAPON MOD TOOL - RECOIL')
+            210 BINARY_OP                0 (+)
+            214 CALL                     1
+            222 POP_TOP
+
+173         224 LOAD_GLOBAL              5 (NULL + print)
+            234 LOAD_GLOBAL              6 (Fore)
+            244 LOAD_ATTR               14 (YELLOW)
+            264 LOAD_GLOBAL             10 (Style)
+            274 LOAD_ATTR               12 (BRIGHT)
+            294 BINARY_OP                0 (+)
+            298 LOAD_CONST               3 ('          ZSDIC.PAK MOD TOOL')
+            300 BINARY_OP                0 (+)
+            304 CALL                     1
+            312 POP_TOP
+
+174         314 LOAD_GLOBAL              5 (NULL + print)
+            324 LOAD_GLOBAL              6 (Fore)
+            334 LOAD_ATTR               14 (YELLOW)
+            354 LOAD_GLOBAL             10 (Style)
+            364 LOAD_ATTR               12 (BRIGHT)
+            384 BINARY_OP                0 (+)
+            388 LOAD_CONST               4 ('        TOOL BY @FirstMods77s')
+            390 BINARY_OP                0 (+)
+            394 CALL                     1
+            402 POP_TOP
+
+175         404 LOAD_GLOBAL              5 (NULL + print)
+            414 LOAD_GLOBAL              6 (Fore)
+            424 LOAD_ATTR                8 (CYAN)
+            444 LOAD_GLOBAL             10 (Style)
+            454 LOAD_ATTR               12 (BRIGHT)
+            474 BINARY_OP                0 (+)
+            478 LOAD_CONST               1 ('========================================')
+            480 BINARY_OP                0 (+)
+            484 LOAD_CONST               5 ('\n')
+            486 BINARY_OP                0 (+)
+            490 CALL                     1
+            498 POP_TOP
+
+176         500 LOAD_GLOBAL              5 (NULL + print)
+            510 LOAD_GLOBAL              6 (Fore)
+            520 LOAD_ATTR               14 (YELLOW)
+            540 LOAD_CONST               6 ('1) No Recoil M416')
+            542 BINARY_OP                0 (+)
+            546 CALL                     1
+            554 POP_TOP
+
+177         556 LOAD_GLOBAL              5 (NULL + print)
+            566 LOAD_GLOBAL              6 (Fore)
+            576 LOAD_ATTR               14 (YELLOW)
+            596 LOAD_CONST               7 ('2) No Recoil All Gun')
+            598 BINARY_OP                0 (+)
+            602 CALL                     1
+            610 POP_TOP
+
+178         612 LOAD_GLOBAL              5 (NULL + print)
+            622 LOAD_GLOBAL              6 (Fore)
+            632 LOAD_ATTR               14 (YELLOW)
+            652 LOAD_CONST               8 ('3) Keluar')
+            654 BINARY_OP                0 (+)
+            658 CALL                     1
+            666 POP_TOP
+
+179         668 LOAD_GLOBAL              5 (NULL + print)
+            678 LOAD_GLOBAL              6 (Fore)
+            688 LOAD_ATTR                8 (CYAN)
+            708 LOAD_GLOBAL             10 (Style)
+            718 LOAD_ATTR               12 (BRIGHT)
+            738 BINARY_OP                0 (+)
+            742 LOAD_CONST               1 ('========================================')
+            744 BINARY_OP                0 (+)
+            748 LOAD_CONST               5 ('\n')
+            750 BINARY_OP                0 (+)
+            754 CALL                     1
+            762 POP_TOP
+
+180         764 LOAD_GLOBAL             17 (NULL + input)
+            774 LOAD_GLOBAL              6 (Fore)
+            784 LOAD_ATTR                8 (CYAN)
+            804 LOAD_CONST               9 ('Choose option (1/2): ')
+            806 BINARY_OP                0 (+)
+            810 CALL                     1
+            818 LOAD_ATTR               19 (NULL|self + strip)
+            838 CALL                     0
+            846 STORE_FAST               0 (choice)
+
+182         848 LOAD_FAST                0 (choice)
+            850 LOAD_GLOBAL             20 (weapon_patterns)
+            860 CONTAINS_OP              0
+            862 POP_JUMP_IF_FALSE      147 (to 1158)
+
+183         864 LOAD_GLOBAL             22 (os)
+            874 LOAD_ATTR               24 (path)
+            894 LOAD_ATTR               27 (NULL|self + join)
+            914 LOAD_GLOBAL             23 (NULL + os)
+            924 LOAD_ATTR               28 (getenv)
+            944 LOAD_CONST              10 ('HOME')
+            946 CALL                     1
+            954 LOAD_CONST              11 ('RECOIL')
+            956 LOAD_CONST              12 ('INPUT')
+            958 CALL                     3
+            966 STORE_FAST               1 (directory_path)
+
+184         968 LOAD_GLOBAL             22 (os)
+            978 LOAD_ATTR               24 (path)
+            998 LOAD_ATTR               31 (NULL|self + exists)
+           1018 LOAD_FAST                1 (directory_path)
+           1020 CALL                     1
+           1028 POP_JUMP_IF_FALSE       35 (to 1100)
+
+185        1030 LOAD_GLOBAL              5 (NULL + print)
+           1040 LOAD_CONST              13 ('\n[INFO] PROSES MOD UNTUK PILIHAN ')
+           1042 LOAD_FAST                0 (choice)
+           1044 FORMAT_VALUE             0
+           1046 LOAD_CONST              14 ('...\n')
+           1048 BUILD_STRING             3
+           1050 CALL                     1
+           1058 POP_TOP
+
+186        1060 LOAD_GLOBAL             33 (NULL + process_directory)
+           1070 LOAD_FAST                1 (directory_path)
+           1072 LOAD_GLOBAL             20 (weapon_patterns)
+           1082 LOAD_FAST                0 (choice)
+           1084 BINARY_SUBSCR
+           1088 CALL                     2
+           1096 POP_TOP
+           1098 RETURN_CONST             0 (None)
+
+188     >> 1100 LOAD_GLOBAL              5 (NULL + print)
+           1110 LOAD_GLOBAL              6 (Fore)
+           1120 LOAD_ATTR               34 (RED)
+           1140 LOAD_CONST              15 ('[ERROR] FOLDER ERROR.')
+           1142 BINARY_OP                0 (+)
+           1146 CALL                     1
+           1154 POP_TOP
+           1156 RETURN_CONST             0 (None)
+
+189     >> 1158 LOAD_FAST                0 (choice)
+           1160 LOAD_CONST              16 ('3')
+           1162 COMPARE_OP              40 (==)
+           1166 POP_JUMP_IF_FALSE       12 (to 1192)
+
+190        1168 LOAD_GLOBAL              5 (NULL + print)
+           1178 LOAD_CONST              17 ('EXIT.')
+           1180 CALL                     1
+           1188 POP_TOP
+           1190 RETURN_CONST             0 (None)
+
+192     >> 1192 LOAD_GLOBAL              5 (NULL + print)
+           1202 LOAD_GLOBAL              6 (Fore)
+           1212 LOAD_ATTR               34 (RED)
+           1232 LOAD_CONST              18 ('Opsi tidak valid.')
+           1234 BINARY_OP                0 (+)
+           1238 CALL                     1
+           1246 POP_TOP
+           1248 RETURN_CONST             0 (None)
